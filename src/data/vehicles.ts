@@ -57,13 +57,22 @@ export const vehicles: Vehicle[] = [
     featured: true
   },
   {
-    id: "baleno-mt-at",
-    name: "Baleno MT / AT",
+    id: "baleno-manual",
+    name: "Baleno Manual",
     category: "Hatchback",
     price12Hours: 1199,
     price24Hours: 1699,
     image: "/images/cars/baleno.webp",
-    description: "Premium hatchback available in both Manual (MT) and Automatic (AT) transmission options for seamless urban drives."
+    description: "Premium manual 5-speed hatchback offering superior driver control, excellent fuel economy, and smooth city commuting."
+  },
+  {
+    id: "baleno-automatic",
+    name: "Baleno Automatic",
+    category: "Hatchback",
+    price12Hours: 1199,
+    price24Hours: 1699,
+    image: "/images/cars/baleno-auto.jpg",
+    description: "Effortless automatic transmission hatchback tailored for stress-free urban driving, smooth gear shifts, and relaxed travel."
   },
   {
     id: "scorpio-n",

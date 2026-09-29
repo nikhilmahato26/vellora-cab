@@ -32,7 +32,7 @@ export const About: React.FC = () => {
             </p>
 
             <p className="text-sm sm:text-base text-slate-600 leading-relaxed">
-              Whether you require a compact hatchback like the Swift, Fronx, or Baleno MT / AT for city errands, or a commanding SUV like the Scorpio Classic S11, Thar, Thar Roxx, Scorpio N, or Fortuner for longer excursions, Velora Drive provides transparent self-drive rates tailored to your timeline.
+              Whether you require a compact hatchback like the Swift, Fronx, Baleno Manual, or Baleno Automatic for city errands, or a commanding SUV like the Scorpio Classic S11, Thar, Thar Roxx, Scorpio N, or Fortuner for longer excursions, Velora Drive provides transparent self-drive rates tailored to your timeline.
             </p>
 
             {/* Checklist */}

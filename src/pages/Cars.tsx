@@ -31,7 +31,7 @@ export const CarsPage: React.FC = () => {
         <title>Self Drive Cars Fleet | Velora Drive Bhubaneswar</title>
         <meta
           name="description"
-          content="Explore all 8 self drive vehicle options at Velora Drive Bhubaneswar. Compare 12-hour and 24-hour rental rates on Scorpio, Thar, Fortuner, Swift, Fronx and Baleno."
+          content="Explore all 9 self drive vehicle options at Velora Drive Bhubaneswar. Compare 12-hour and 24-hour rental rates on Scorpio, Thar, Fortuner, Swift, Fronx, Baleno Manual and Baleno Automatic."
         />
       </Helmet>
 
@@ -45,7 +45,7 @@ export const CarsPage: React.FC = () => {
             EXPLORE OUR <span className="text-cyan-400">VEHICLES</span>
           </h1>
           <p className="text-slate-400 mt-3 text-base max-w-xl mx-auto">
-            Choose from 8 vehicle options with flexible 12-hour and 24-hour transparent rates in Nayapalli, Bhubaneswar.
+            Choose from 9 vehicle options with flexible 12-hour and 24-hour transparent rates in Nayapalli, Bhubaneswar.
           </p>
         </div>
       </div>

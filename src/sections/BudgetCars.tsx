@@ -49,8 +49,8 @@ export const BudgetCars: React.FC<BudgetCarsProps> = ({
           </p>
         </div>
 
-        {/* 3 Budget Vehicles Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+        {/* Budget Vehicles Grid */}
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
           {budgetVehicles.map((vehicle) => {
             const currentPrice =
               selectedDuration === 12
@@ -68,9 +68,14 @@ export const BudgetCars: React.FC<BudgetCarsProps> = ({
                     <span className="px-2.5 py-1 rounded-md text-[11px] font-bold uppercase tracking-wider bg-slate-100 text-slate-700">
                       {vehicle.category}
                     </span>
-                    {vehicle.name.includes('MT / AT') && (
+                    {vehicle.name.includes('Manual') && (
+                      <span className="px-2 py-0.5 rounded text-[10px] font-black uppercase bg-slate-100 text-slate-700 border border-slate-200">
+                        Manual MT
+                      </span>
+                    )}
+                    {vehicle.name.includes('Automatic') && (
                       <span className="px-2 py-0.5 rounded text-[10px] font-black uppercase bg-cyan-50 text-cyan-700 border border-cyan-200">
-                        MT / AT Available
+                        Automatic AT
                       </span>
                     )}
                   </div>

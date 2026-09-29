@@ -49,9 +49,14 @@ export const VehicleCard: React.FC<VehicleCardProps> = ({
           <span className="inline-flex items-center px-2.5 py-1 rounded-md text-[11px] font-bold tracking-wider uppercase bg-white/95 text-slate-800 border border-slate-200 backdrop-blur-md shadow-xs">
             {vehicle.category}
           </span>
-          {vehicle.name.includes('MT / AT') && (
+          {vehicle.name.includes('Manual') && (
+            <span className="inline-flex items-center px-2 py-1 rounded-md text-[11px] font-black tracking-wider uppercase bg-slate-100 text-slate-700 border border-slate-200">
+              Manual / MT
+            </span>
+          )}
+          {vehicle.name.includes('Automatic') && (
             <span className="inline-flex items-center px-2 py-1 rounded-md text-[11px] font-black tracking-wider uppercase bg-cyan-50 text-cyan-700 border border-cyan-200">
-              MT / AT
+              Automatic / AT
             </span>
           )}
         </div>

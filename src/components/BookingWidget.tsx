@@ -160,7 +160,7 @@ export const BookingWidget: React.FC<BookingWidgetProps> = ({ onCheckCars }) => 
               onChange={(e) => setSelectedVehicle(e.target.value)}
               className="w-full bg-transparent text-sm font-semibold text-slate-900 focus:outline-none cursor-pointer"
             >
-              <option value="all">All 8 Vehicle Options</option>
+              <option value="all">All 9 Vehicle Options</option>
               {vehicles.map((v) => (
                 <option key={v.id} value={v.id}>
                   {v.name} ({duration === 12 ? `₹${v.price12Hours}` : `₹${v.price24Hours}`})
