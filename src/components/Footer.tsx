@@ -47,11 +47,13 @@ export const Footer: React.FC = () => {
               className="inline-block group"
               aria-label="Velora Drive Home"
             >
-              <img
-                src="/images/logo.png"
-                alt="Velora Drive - Drive Beyond Ordinary"
-                className="h-12 sm:h-14 w-auto object-contain brightness-105 group-hover:scale-105 transition-transform"
-              />
+              <div className="bg-black px-3.5 py-1.5 rounded-xl border border-slate-800 inline-flex items-center justify-center transition-all duration-200 group-hover:border-cyan-500/40">
+                <img
+                  src="/images/logo.png"
+                  alt="Velora Drive - Drive Beyond Ordinary"
+                  className="h-10 sm:h-12 w-auto object-contain brightness-105 group-hover:scale-[1.02] transition-transform"
+                />
+              </div>
             </Link>
 
             <p className="text-sm text-slate-400 leading-relaxed">

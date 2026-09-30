@@ -54,11 +54,13 @@ export const Navbar: React.FC = () => {
             className="flex items-center group py-0.5"
             aria-label="Velora Drive Home"
           >
-            <img
-              src="/images/logo.png"
-              alt="Velora Drive - Drive Beyond Ordinary"
-              className="h-10 sm:h-12 w-auto object-contain transition-transform duration-200 group-hover:scale-[1.03]"
-            />
+            <div className="bg-black px-2.5 py-1 sm:px-3 sm:py-1.5 rounded-xl border border-slate-800 shadow-xs flex items-center justify-center transition-all duration-200 group-hover:border-cyan-500/40">
+              <img
+                src="/images/logo.png"
+                alt="Velora Drive - Drive Beyond Ordinary"
+                className="h-8 sm:h-9 w-auto object-contain transition-transform duration-200 group-hover:scale-[1.02]"
+              />
+            </div>
           </Link>
 
           {/* Desktop Navigation */}
