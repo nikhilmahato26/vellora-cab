@@ -31,7 +31,7 @@ export const CarsPage: React.FC = () => {
         <title>Self Drive Cars Fleet | Velora Drive Bhubaneswar</title>
         <meta
           name="description"
-          content="Explore all 9 self drive vehicle options at Velora Drive Bhubaneswar. Compare 12-hour and 24-hour rental rates on Scorpio, Thar, Fortuner, Swift, Fronx, Baleno Manual and Baleno Automatic."
+          content="Explore all 9 self drive vehicle options at Velora Drive Bhubaneswar. Compare 12-hour and 24-hour rental rates on Scorpio, Thar, Fortuner, Swift, Fronx, Baleno (Automatic) and Baleno (Manual)."
         />
       </Helmet>
 

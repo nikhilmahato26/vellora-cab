@@ -50,7 +50,7 @@ export const Pricing: React.FC<PricingProps> = ({
               </p>
             </div>
             <div className="mt-6 pt-4 border-t border-slate-100 flex items-center justify-between">
-              <span className="text-xs font-semibold text-cyan-700">Swift, Fronx, Baleno Manual & Automatic</span>
+              <span className="text-xs font-semibold text-cyan-700">Swift, Fronx, Baleno (Automatic) & (Manual)</span>
               <span className="px-2.5 py-1 rounded bg-cyan-50 text-cyan-800 text-[11px] font-bold">12h Rate</span>
             </div>
           </div>
