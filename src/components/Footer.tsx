@@ -1,5 +1,6 @@
 import React from 'react';
-import { Car, Phone, Mail, MapPin, ArrowRight } from 'lucide-react';
+import { Link } from 'react-router-dom';
+import { Phone, Mail, MapPin, ArrowRight } from 'lucide-react';
 import { BUSINESS_INFO } from '../utils/contact';
 import { vehicles } from '../data/vehicles';
 import { getGeneralWhatsAppUrl } from '../utils/whatsapp';
@@ -40,19 +41,18 @@ export const Footer: React.FC = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 lg:gap-8 mb-12">
           {/* Brand Info */}
           <div className="space-y-4">
-            <div className="flex items-center gap-3">
-              <div className="w-10 h-10 rounded-lg bg-slate-800 text-cyan-400 flex items-center justify-center font-bold text-xl border border-slate-700">
-                <Car className="w-5 h-5 text-cyan-400" />
-              </div>
-              <div>
-                <span className="text-xl font-black tracking-tight text-white block leading-tight font-display">
-                  VELORA <span className="text-cyan-400">DRIVE</span>
-                </span>
-                <span className="text-[10px] font-bold tracking-widest text-slate-400 uppercase block -mt-0.5">
-                  SELF DRIVE CAR RENTAL
-                </span>
-              </div>
-            </div>
+            <Link
+              to="/"
+              onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
+              className="inline-block group"
+              aria-label="Velora Drive Home"
+            >
+              <img
+                src="/images/logo.png"
+                alt="Velora Drive - Drive Beyond Ordinary"
+                className="h-12 sm:h-14 w-auto object-contain brightness-105 group-hover:scale-105 transition-transform"
+              />
+            </Link>
 
             <p className="text-sm text-slate-400 leading-relaxed">
               Self-drive car rental in Nayapalli, Bhubaneswar with flexible 12-hour and 24-hour rental options.

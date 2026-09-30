@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Link, useLocation } from 'react-router-dom';
-import { Phone, MessageCircle, Menu, X, Car, ArrowRight } from 'lucide-react';
+import { Phone, MessageCircle, Menu, X, ArrowRight } from 'lucide-react';
 import { BUSINESS_INFO } from '../utils/contact';
 import { getGeneralWhatsAppUrl } from '../utils/whatsapp';
 
@@ -51,19 +51,14 @@ export const Navbar: React.FC = () => {
           <Link
             to="/"
             onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
-            className="flex items-center gap-3 group"
+            className="flex items-center group py-0.5"
+            aria-label="Velora Drive Home"
           >
-            <div className="w-10 h-10 rounded-lg bg-slate-900 text-cyan-400 flex items-center justify-center font-bold text-xl shadow-sm border border-slate-800 group-hover:border-cyan-500 transition-colors">
-              <Car className="w-5 h-5 text-cyan-400" />
-            </div>
-            <div>
-              <span className="text-xl font-black tracking-tight text-slate-900 block leading-tight font-display">
-                VELORA <span className="text-cyan-600">DRIVE</span>
-              </span>
-              <span className="text-[10px] font-bold tracking-widest text-slate-500 uppercase block -mt-0.5">
-                SELF DRIVE CAR RENTAL
-              </span>
-            </div>
+            <img
+              src="/images/logo.png"
+              alt="Velora Drive - Drive Beyond Ordinary"
+              className="h-10 sm:h-12 w-auto object-contain transition-transform duration-200 group-hover:scale-[1.03]"
+            />
           </Link>
 
           {/* Desktop Navigation */}
